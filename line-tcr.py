@@ -10,7 +10,7 @@ from googletrans import Translator
 from bs4 import BeautifulSoup
 
 cl = HelloWorldTCR_CHROME.LINE()
-cl.login(token="Epd1sdMQaw7TT2fNgTs6.HXmnNlEv5Km6V48Z1EZGHG.8nVDZ1Jo9vIXJfwCVpJdX6nRwjJwc2eHYI704GKkWCc=")
+cl.login(token="Eqi8Hzb6tDIjW0K277r0.TNFzgE8VJ4k3jsKgeUaiya.fNBXqYGrUtvS3HbAH6ydEK2uYJ1sOc2uGd2jm3D76AE=")
 cl.loginResult()
 
 ki = kk = kc = cl 
@@ -28,6 +28,7 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
+verify=[""]
 admin=["u3025847a09aaf3b65bf6bc68374a9e6a","u16baba09004cd8424cd2d0a0a47da7c6","u700e599409b4f9b008f93e06687d5767","uab8464cbc9dcea652e03784746542538","ucd0c1b31c202d8edc769f574be7e76ad"] 
 wait = {
     'contact':True,
